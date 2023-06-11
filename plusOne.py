@@ -39,5 +39,5 @@ class Solution:
                 return digits
         return [1] + digits
 if __name__=='main':
-    r=Solution
-    print(r.plusOne(1,1,2,3,1))
+    r=Solution()
+    print(r.plusOne([1,1,2,3,1]))
