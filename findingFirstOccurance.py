@@ -11,3 +11,5 @@ class FirstOccurance:
 if __name__=='__main__':
     r=FirstOccurance()
     print(r.strMatchMismatch('school', 'schol'))
+    print(r.strMatchMismatch('school', 'scho'))
+    print(r.strMatchMismatch('score', 'sc'))
