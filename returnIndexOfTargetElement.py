@@ -10,7 +10,7 @@ class TargetElement:
             if nums[m] == target:
                 return m
             if nums[m] < target:
-                l = m + 1
+               l = m + 1
             else:
                 r = m
         return l
@@ -18,5 +18,5 @@ class TargetElement:
 if __name__=='__main__':
     r=TargetElement()
     print(r.returnTarget([2,3,4,5,6,7],5))
-    print(r.returnTarget([2, 3, 4, 5, 6, 7], 9))
-    print(r.returnTarget([2, 3, 4, 5, 6, 7], 1))
+    print(r.returnTarget([2, 3, 5, 6, 7], 4))
+    print(r.returnTarget([2, 3, 4, 5, 6, 7], 10))
