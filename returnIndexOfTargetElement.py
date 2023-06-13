@@ -18,3 +18,5 @@ class TargetElement:
 if __name__=='__main__':
     r=TargetElement()
     print(r.returnTarget([2,3,4,5,6,7],5))
+    print(r.returnTarget([2, 3, 4, 5, 6, 7], 9))
+    print(r.returnTarget([2, 3, 4, 5, 6, 7], 1))
