@@ -22,4 +22,4 @@ class Solution:
 
 if __name__ == '__main__':
     c= Solution()
-    print(c.intersect([3,6,2],[2,2,8]))
+    print(c.intersect([3,6,2],[2,3,2,8]))
