@@ -5,7 +5,6 @@ def is_prime (n):
         if n %2==0:
             return False
     return  True
-
 nums=20
 if is_prime(nums):
     print(f"{nums} is a prime number")
